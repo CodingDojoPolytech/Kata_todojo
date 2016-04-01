@@ -1,0 +1,58 @@
+html, body{
+    margin:0;
+    padding:0;
+    background-color: #424242;
+    color: white;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    text-align: center;
+}
+#todoliste_container{
+    background: gold;
+    color: #000;
+    padding:20px;
+    text-align: center;
+}
+ul#todoliste{
+    margin:auto ;
+    width: 300px;
+    list-style: none;
+    text-align: left;
+}
+#todolist_form {
+    padding: 10px;
+}
+#todolist_form input {
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    min-width: 200px;
+}
+#todolist_form button {
+    padding: 10px;
+    border-radius: 5px;
+    background: transparent;
+    border: 2px solid gold;
+    color: gold;
+    cursor: pointer;
+    outline: 0px;
+}
+
+li .checked {
+    text-decoration: line-through;
+}
+
+.delete {
+    cursor:pointer;
+}
+
+input#filter {
+    padding: 10px;
+    border-radius: 5px;
+    border:none;
+    min-width: 257px;
+    margin-top: 5px;
+}
